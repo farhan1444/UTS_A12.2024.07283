@@ -1,0 +1,185 @@
+!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Promo Toko Parfum mewah murah</title>
+  <link href="style.css" rel="stylesheet">
+  <script type="text/JavaScript" src="js/Atur1.js"></script>
+
+  <style>
+    :root {
+      --ungu: #a97fff;
+      --ungu-muda: #e8d9ff;
+      --putih: #ffffff;
+    }
+
+    body {
+      background: linear-gradient(to bottom, #f9f6ff, #f3e9ff);
+      font-family: 'Poppins', sans-serif;
+      color: #2b2b2b;
+    }
+
+    /* HEADER */
+    header {
+      background: var(--ungu);
+      color: white;
+      text-align: center;
+      padding: 60px 20px;
+      border-radius: 0 0 40px 40px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    }
+
+    header h1 {
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.1rem;
+      opacity: 0.9;
+    }
+
+    /* PROMO SECTION */
+    .promo-title {
+      text-align: center;
+      margin: 60px 0 40px;
+    }
+
+    .promo-title h2 {
+      color: var(--ungu);
+      font-weight: 700;
+      font-size: 2rem;
+    }
+
+    .promo-title p {
+      color: #555;
+      font-size: 1rem;
+    }
+
+    /* CARD */
+    .promo-card {
+      border: none;
+      border-radius: 20px;
+      background: var(--putih);
+      box-shadow: 0 6px 16px rgba(0,0,0,0.07);
+      overflow: hidden;
+      transition: all 0.3s ease;
+    }
+
+    .promo-card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 10px 22px rgba(169,127,255,0.3);
+    }
+
+    .promo-card img {
+      height: 220px;
+      object-fit: cover;
+    }
+
+    .promo-card h5 {
+      color: var(--ungu);
+      font-weight: 600;
+      margin-top: 10px;
+    }
+
+    .promo-card p {
+      color: #444;
+      font-size: 0.95rem;
+      margin-bottom: 15px;
+    }
+
+    /* BUTTON */
+    .btn-beli {
+      display: inline-block;
+      background: linear-gradient(135deg, var(--ungu), var(--ungu-muda));
+      color: white;
+      border: none;
+      border-radius: 25px;
+      padding: 10px 20px;
+      font-weight: 600;
+      transition: all 0.3s ease;
+      text-decoration: none;
+    }
+
+    .btn-beli:hover {
+      background: white;
+      color: var(--ungu);
+      border: 2px solid var(--ungu);
+      transform: scale(1.05);
+    }
+
+    /* FOOTER */
+    footer {
+      background: var(--ungu);
+      color: white;
+      text-align: center;
+      padding: 15px;
+      border-radius: 40px 40px 0 0;
+      margin-top: 60px;
+      box-shadow: 0 -4px 20px rgba(0,0,0,0.05);
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <h1>Promo Spesial Akhir Tahun 😱</h1>
+    <p>Penawaran eksklusif hanya di <strong>Toko parfum mewah murah</strong></p>
+  </header>
+
+  <!-- Judul Promo -->
+  <section class="promo-title">
+    <h2>💜 Pilihan Promo Terbaik 💜</h2>
+    <p>Temukan parfum berkualitas tinggi dengan harga bersahabat.</p>
+  </section>
+
+  <!-- Kartu Promo -->
+  <div class="container mb-5">
+    <div class="row g-4 justify-content-center">
+
+      <div class="col-md-4">
+        <div class="card promo-card text-center">
+          <img src="gambar/gambar3.webp" class="card-img-top" alt="Monitor">
+          <div class="card-body">
+            <h5>Amber essence</h5>
+            <p>Hangat dan mewah dengan aroma ember.</p>
+            <a href="#" class="btn-beli">Lihat Detail</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card promo-card text-center">
+          <img src="gambar/gambar2.webp" class="card-img-top" alt="Laptop">
+          <div class="card-body">
+            <h5>Ocean Whisper</h5>
+            <p>segar dan tenang seperti lut biru</p>
+            <a href="#" class="btn-beli">Lihat Detail</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card promo-card text-center">
+          <img src="gambar/gambar1.webp" class="card-img-top" alt="Keyboard">
+          <div class="card-body">
+            <h5>Velvet Bloom</h5>
+            <p>Wangi lembut bunga peony dan vanilla.</p>
+            <a href="#" class="btn-beli">Lihat Detail</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    © Nama : Farkhan maulana:07283 <span id="clock"></span>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
