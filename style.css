@@ -99,25 +99,42 @@ nav a:hover, nav a.active {
 }
 
 /* ==== Galeri ==== */
-.gallery {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 20px;
-  padding: 30px;
+.product-card {
+    width: 200px;
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
-.gallery img {
-  width: 100%;
-  border-radius: 15px;
-  transition: all 0.4s;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+.product-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
 }
 
-.gallery img:hover {
-  transform: scale(1.05);
-  box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+.product-info {
+    background: #f8f8f8;
+    padding: 10px;
+    text-align: center;
 }
 
+.product-name {
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+} 
+.product-container {
+    display: flex;
+    gap: 20px;       
+    flex-wrap: wrap; 
+    justify-content: center; 
+    margin-top: 20px;
+}
 /* ==== FAQ ==== */
 .faq {
   padding: 30px;
